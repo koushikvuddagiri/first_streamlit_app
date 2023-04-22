@@ -10,3 +10,4 @@ streamlit.text('🥑🍞 Avocado Toast')
 
     
    
+streamlit.header('🍌🥭 Build your own Fruit Smooithe 🥝🍇')
