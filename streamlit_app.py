@@ -5,4 +5,5 @@ breakfast_items = ['Omega 3 & Blueberry Oatmeal', 'Kale, Spinach & Rocket Smooth
 
 streamlit.write('Breakfast Menu:')
 for item in breakfast_items:
-streamlit.write('- ' + item)
+streamlit.write('-' + item)
+
