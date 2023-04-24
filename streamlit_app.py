@@ -39,6 +39,10 @@ streamlit.dataframe(fruityvice_normalized)
 # Install dependencies from requirements.txt file
 subprocess.call("pip install -r requirements.txt", shell=True)
 
+import subprocess
+
+# Rest of your code here
+
 my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
 my_cur = my_cnx.cursor()
 my_cur.execute("SELECT CURRENT_USER(), CURRENT_ACCOUNT(), CURRENT_REGION()")
