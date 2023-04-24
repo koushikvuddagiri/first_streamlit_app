@@ -1,4 +1,3 @@
 # requirements.txt
 snowflake-connector-python
 
-subprocess.call("pip install -r requirements.txt", shell=True)
